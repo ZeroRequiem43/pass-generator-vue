@@ -1,0 +1,104 @@
+@media (max-width: 550px) {
+   .generator {
+      max-width: 460px;
+   }
+}
+@media (max-width: 490px) {
+   .main__title {
+      h1 {
+         margin-bottom: 110px;
+      }
+   }
+   .generator__output,
+   .generator-lvl {
+      flex-direction: column;
+   }
+   .generator__output-buttons {
+      margin: 50px 0 30px;
+   }
+   .generator__length-text,
+   .generator__symbols-text {
+      margin-bottom: 30px;
+      font-size: 22px;
+   }
+   .generator__symbols-form {
+      margin-bottom: 80px;
+   }
+
+   .form-fl.form-checkbox {
+      display: grid;
+      grid-template: 50px 50px / 1fr 1fr;
+      justify-items: center;
+   }
+   .form-fl__input-container {
+      input {
+         width: 20px;
+         height: 20px;
+      }
+   }
+   label {
+      font-size: 24px;
+      margin-left: 20px;
+      min-width: 50px;
+   }
+
+   .range-control svg {
+      width: 40px;
+      height: 40px;
+   }
+
+   input[type=range] {
+      height: 30px;
+      width: 180px;
+      border-radius: 14px;
+      
+   }
+   input[type=range]::-moz-range-track {
+      height: 30px;
+      border-radius: 14px;
+   }
+   input[type=range]::-webkit-slider-runnable-track {
+      height: 30px;
+      border-radius: 14px;
+   }
+   input[type=range]::-ms-track {
+      height: 30px;
+      border-radius: 14px;
+   }
+
+   input[type=range]::-webkit-slider-thumb {
+      width: 40px;
+      height: 40px;
+   }
+   input[type=range]::-ms-thumb {
+      width: 40px;
+      height: 40px;
+   }
+   input[type=range]::-moz-range-thumb {
+      width: 40px;
+      height: 40px;
+   }
+   input[type=range]::-moz-range-progress {
+      border-radius: 13px;
+   }
+   .notification {
+      top: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+      right: auto;
+   
+      &.active {
+         visibility: visible;
+         opacity: 1;
+         transition: all .3s ease 0s;
+      }
+      // .notification__body
+   
+      &__body {
+         font-weight: 700;
+         text-align: center;
+         white-space: nowrap;
+         padding: 1.5rem 1rem;
+      }
+   }
+}

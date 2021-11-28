@@ -39,6 +39,4 @@ const store = createStore({
    getters
 })
 
-window.store = store
-
 export default store

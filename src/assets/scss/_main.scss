@@ -1,0 +1,46 @@
+.main {
+   width: 100%;
+   height: 100%;
+   padding: 0 10px;
+   // .main__title
+ 
+   &__title {
+     h1 {
+       color: white;
+       font-size: 32px;
+       text-align: center;
+       padding-top: 50px;
+       margin-bottom: 200px;
+       font-weight: 900;
+     }
+   }
+ }
+ .generator {
+   max-width: 500px;
+   margin: 0 auto;
+   // .generator__output
+ 
+   &__output {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     .btn-primary {
+       margin-left: 40px;
+     }
+   }
+ 
+   // .generator__length-text
+ 
+   &__length-text {
+     min-width: 150px;
+   }
+ 
+ }
+ .generator-lvl {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 15px;
+   max-width: 500px;
+ }

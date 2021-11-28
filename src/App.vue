@@ -16,17 +16,17 @@ export default {
 
 <style lang="scss">
 @import "./assets/scss/vars";
-@import url('./assets/scss/index.scss');
+@import './assets/scss/index';
 @import "./assets/scss/buttons";
 @import "./assets/scss/forms";
 @import "./assets/scss/input-range";
 @import "./assets/scss/main";
 @import "./assets/scss/advice";
 @import "./assets/scss/notifications";
+@import "./assets/scss/media";
 
 #app {
   width: 100%;
   height: 100%;
-  background: #0d112d;
 }
 </style>

@@ -1,0 +1,56 @@
+.btn {
+   display: inline-block;
+   font-size: 18px;
+   padding: 12px 18px;
+   border-radius: 14px;
+   user-select: none;
+   line-height: 1.2;
+   &.btn-primary {
+      text-align: center;
+      color: #fff;
+      background: #007bff;
+      &:hover {
+         background: #0069d9;
+      }
+   }
+   &.btn-refresh {
+      background: url('./assets/icons/refresh-icon.svg') center no-repeat, #fff;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      transition: all .3s ease 0s;
+      &:disabled {
+         background: url('./assets/icons/refresh-icon.svg') center no-repeat, #6e6e6e;
+         &:hover {
+            transform: none;
+            background: url('./assets/icons/refresh-icon.svg') center no-repeat, #6e6e6e;
+         }
+      }
+      &:hover {
+         background: url('./assets/icons/refresh-icon.svg') center no-repeat, #e0e0e0;
+         transform: rotate(-180deg);
+      }
+   }
+}
+.btn-minus,
+.btn-plus {
+   margin: 0 8px;
+   user-select: none;
+}
+
+.range-control {
+   cursor: pointer;
+   svg {
+      transition: all .2s ease 0s;
+   }
+   &:hover  {
+      > svg {
+         fill: rgb(212, 212, 212) !important;
+      }
+   }
+   svg {
+      fill: #fff;
+      width: 30px;
+      height: 30px;
+   }
+}

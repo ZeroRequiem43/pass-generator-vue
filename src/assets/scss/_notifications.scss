@@ -1,0 +1,26 @@
+.notification {
+   position: absolute;
+   visibility: hidden;
+   opacity: 0;
+   top: 80px;
+   right: 100px;
+   background: #323232;
+   border-radius: 8px;
+   color: white;
+   transition: all .3s ease 0s;
+   min-width: 200px;
+   // .notification__body
+
+   &.active {
+      visibility: visible;
+      opacity: 1;
+      transition: all .3s ease 0s;
+   }
+
+   &__body {
+      font-weight: 700;
+      text-align: center;
+      white-space: nowrap;
+      padding: 1.5rem 1rem;
+   }
+}

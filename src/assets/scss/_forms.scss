@@ -1,0 +1,35 @@
+#generator-output {
+   position: relative;
+   border-radius: 14px;
+   padding: 12px 10px;
+   font-size: 18px;
+   color: black;
+   &:disabled {
+      background: #fff;
+   }
+}
+.form-fl.form-range {
+   display: flex;
+   align-items: center;
+}
+.form-fl.form-checkbox {
+   min-width: 221px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+form.rel {
+   position: relative;
+}
+
+.form-fl__input-container {
+   display: flex;
+   align-items: center;
+   input {
+      width: 20px;
+      height: 20px;
+   }
+   label {
+      margin: 0 5px;
+   }
+}
